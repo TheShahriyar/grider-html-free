@@ -10,9 +10,9 @@
     border-radius: 0;
     padding: 0;
     transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
+    font-family: $heading-font;
+    font-weight: 400;
 
     .navbar-brand {
       img {
@@ -36,8 +36,9 @@
 
         > a {
           color: #666;
-          font-size: 15px;
-          font-weight: 600;
+          font-size: 14px;
+          font-weight: 400;
+          letter-spacing: 2px;
           text-transform: uppercase;
           transition: all 0.2s ease-in-out;
           -moz-transition: all 0.2s ease-in-out;

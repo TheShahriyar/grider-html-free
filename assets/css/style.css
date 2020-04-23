@@ -570,10 +570,11 @@ blockquote {
     border: none;
     border-radius: 0;
     padding: 0;
+    -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out; }
+    font-family: "Oswald", sans-serif;
+    font-weight: 400; }
     .navbar.navbar-expand-lg .navbar-brand img {
       width: 170px; }
     .navbar.navbar-expand-lg .navbar-collapse {
@@ -588,8 +589,9 @@ blockquote {
         position: inherit; }
         .navbar.navbar-expand-lg .navbar-nav > li > a {
           color: #666;
-          font-size: 15px;
-          font-weight: 600;
+          font-size: 14px;
+          font-weight: 400;
+          letter-spacing: 2px;
           text-transform: uppercase;
           transition: all 0.2s ease-in-out;
           -moz-transition: all 0.2s ease-in-out;
