@@ -2,23 +2,16 @@
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  .tab-hidden {
-    display: none;
+  .banner-section .banner-text h1 {
+    font-size: 50px;
+    line-height: 1.5;
   }
-  .tab-mb-30 {
-    margin-bottom: 30px !important;
-  }
-  .navbar-fixed-top {
-    margin-top: 0;
-    background-color: #000;
-    position: inherit !important;
+  .portfolio-box.col3 .work-post {
+    width: 50%;
   }
 }
 
 @media (max-width: 1023px) {
-  .tab-hidden {
-    display: none;
-  }
 }
 
 @media (max-width: 992px) {
@@ -36,18 +29,15 @@
   .mbl-mt-30 {
     margin-top: 30px;
   }
-  .pad-t110 {
-    padding-top: 50px;
-  }
-  .pad-t100 {
-    padding-top: 50px;
-  }
-  .pad-b80 {
-    padding-bottom: 40px;
-  }
 
-  .pad100 {
+  .pad80 {
     padding: 50px 0;
+  }
+  .pad-t80 {
+    padding-top: 50px;
+  }
+  .pad-b50 {
+    padding-bottom: 30px;
   }
 
   .navbar-fixed-top {
@@ -56,57 +46,42 @@
     position: inherit !important;
   }
 
-  .address-box {
-    margin-bottom: 30px;
-  }
-
-  .margin80 {
-    margin: 30px 0;
-  }
-
-  .mbl-display {
-    display: inline-block;
-  }
-
-  .mbl-mt30 {
-    margin-top: 30px !important;
-  }
-
   .section-title {
+    margin-bottom: 50px;
     h3 {
-      font-size: 32px;
-      line-height: 36px;
+      font-size: 24px;
+      line-height: 28px;
     }
-  }
-
-  .blog-post .blog-post-content .post-format.width10,
-  .single-blog-post .blog-post-content .post-format.width10 {
-    width: 15%;
-    display: inline-flex;
-  }
-
-  .blog-post .blog-post-content .post-description h1,
-  .single-blog-post .blog-post-content .post-description h1 {
-    margin-top: 10px;
   }
 
   .breadcrumb {
     float: left;
     padding-left: 0;
   }
-  .footer-menu ul {
-    text-align: left;
+
+  .banner-section .banner-text h1 {
+    font-size: 40px;
+    line-height: 1.5;
   }
-  .footer-menu ul li a {
-    padding-left: 0;
-    padding-right: 15px;
+  .call-to-action-2 h3 {
+    margin-bottom: 20px;
+  }
+  .portfolio-box.col3 .work-post {
+    width: 100%;
+  }
+  .footer-section {
+    padding: 50px 0;
+  }
+  .page-banner .breadcrumb {
+    float: left;
+
+    li:first-child {
+      margin-left: 0;
+    }
   }
 }
 
 @media (max-width: 480px) {
-  .top-contact .item {
-    margin-right: 20px;
-  }
 }
 
 @media (max-width: 320px) {

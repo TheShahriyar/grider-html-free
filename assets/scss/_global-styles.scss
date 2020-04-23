@@ -222,61 +222,57 @@ hr {
   left: 0;
 }
 
-.breadcrumb-section {
-  padding: 80px 0;
+/** =======================================**/
+/** Page Title & Breadcrumb **/
+/** =======================================**/
+
+.page-banner {
+  padding: 50px 0;
+  background: url(../images/bg/breadcrumb.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top center;
 }
-
-.breadcrumb {
-  background: transparent;
-  border-radius: 0;
-  color: #fff;
-  float: right;
-  font-size: 13px;
-  font-weight: 500;
-  text-transform: uppercase;
-  margin-bottom: 0;
-
-  li {
-    display: inline-block;
-    padding: 0 5px;
-
-    a {
-      color: #fff;
-      -webkit-transition: all 0.3s;
-      transition: all 0.3s;
-
-      &:hover {
-        color: $brand-primary;
-      }
-    }
-
-    &:after {
-      content: "/";
-      padding-left: 5px;
-    }
-
-    &:first-child,
-    &:last-child {
-      &:after {
-        content: "";
-      }
-    }
+@media (max-width: 767px) {
+  .page-banner {
+    background-attachment: scroll;
   }
 }
 
-.page-title {
-  h1 {
-    font-size: 22px;
-    letter-spacing: 1.5px;
-    font-weight: 400;
-    text-transform: uppercase;
-    margin: 0;
+.page-title h1 {
+  color: #fff;
+  font-size: 22px;
+  letter-spacing: 3px;
+}
+
+.page-banner .breadcrumb {
+  background: transparent;
+  float: right;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.page-banner .breadcrumb li {
+  display: inline-block;
+  margin-left: 10px;
+  color: #fff;
+  font-size: 14px;
+
+  a {
     color: #fff;
   }
 }
+.page-banner .breadcrumb li a:hover {
+  color: #fff;
+}
 
-label {
-  margin-bottom: 0;
+.page-banner .breadcrumb li:after {
+  content: "/";
+  padding-left: 5px;
+  color: #fff;
+}
+.page-banner .breadcrumb li:last-child:after {
+  display: none;
 }
 
 // Navbar Fixed Top

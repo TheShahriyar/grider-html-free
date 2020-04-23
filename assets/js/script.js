@@ -57,8 +57,6 @@
         },
       });
     });
-
-    $("#datepicker").datepicker();
   });
   //dom ready end
 })(jQuery);
